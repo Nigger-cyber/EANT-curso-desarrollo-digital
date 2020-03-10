@@ -5,6 +5,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
     line-height: 200%;
+    margin: 40px;
 }
 
 #titulo-principal {
