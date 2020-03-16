@@ -40,3 +40,27 @@ nav li a {
     color: #FFF;
     text-decoration: none;
 }
+
+section article figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+h2 {
+    background-color: #252431;
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+#noticias_destacadas {
+    animation-name: noticias_destacadas;
+    animation-duration: 6s;
+}
+
+@keyframes noticias_destacadas {
+from {}
+to {}
+}
