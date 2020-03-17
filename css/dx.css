@@ -41,18 +41,22 @@ nav li a {
     text-decoration: none;
 }
 
-section article figure img {
+figure img {
     width: 100%;
     height: auto;
     display: block;
+    border-top: solid white 0.2rem;
     }
 
-h2 {
+figure figcaption {
     background-color: #252431;
+}
+
+h2 {
     color: #FFF;
     font-size: 5rem;
     font-weight: 600;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 #noticias_destacadas {
