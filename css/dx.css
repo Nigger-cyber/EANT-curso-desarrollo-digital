@@ -129,14 +129,37 @@ h3 {
 
 #tabla_resultados table th {
     background-color: red;
-    color: #fff;
+    color: white;
     font-weight: bold;
     font-size: 2rem;
     padding: 1rem;
 }
 
 #tabla_resultados table tr {
-    padding: 0.8rem;
+    background-color: rgb(219,216,212);
+}
+
+#tabla_resultados table td {
+    line-height: 2.5rem;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border-top: solid #999 0.1rem;
+}
+
+#tabla_resultados table td:nth-of-type(odd) {
+    font-size: 3rem;
+    color: #222222;
+    font-weight: 600;
+}
+
+#tabla_resultados table td:nth-of-type(even) {
+    min-width: 25rem;
+}
+
+#tabla_resultados table td a {
+    color: rgb(27, 107, 131);
+    font-weight: 600;
+    text-decoration: none;
 }
 
 @keyframes slider {
