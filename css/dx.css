@@ -13,6 +13,8 @@ body {
     overflow-x: hidden;
 }
 
+/* HEADER */
+
 header {
     background-color: #202020;
     padding: 2rem;
@@ -28,6 +30,10 @@ h1 {
     background-repeat: no-repeat;
     padding-left: 6rem;
     background-size: contain;
+}
+
+button {
+    display: none;
 }
 
 nav {
@@ -46,6 +52,11 @@ nav li a {
     text-decoration: none;
 }
 
+
+
+
+/* NOTICIAS DESTACADAS */
+
 figure {
     float: left;
     width: 100vw;
@@ -58,7 +69,9 @@ img {
 }
 
 figure figcaption {
+    display: block;
     background-color: #252431;
+    min-height: 15rem;
 }
 
 figure h2 {
@@ -70,9 +83,20 @@ figure h2 {
 
 #noticias_destacadas {
     overflow: auto;
-    width: 300vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+
     animation: 15s slider infinite alternate-reverse;
+    
 }
+
+
+
+
+
+/* ULTIMAS NOTICIAS */
 
 .noticia-img {
     width: 30%;
@@ -123,6 +147,9 @@ h3 {
     background-color: #999;
 }
 
+
+/* TABLA DE RESULTADOS */
+
 #tabla_resultados table {
     margin: auto;
 }
@@ -170,3 +197,46 @@ h3 {
     80% {margin-left: -200vw}
     100% {margin-left: -200vw}
     }
+
+    @media screen and (max-width: 600px) {
+        /*INICIO @MEDIA-QUERY HASTA 600PX*/
+        .noticia {
+            flex-direction: column;
+        }
+
+        .noticia-img, .noticia-txt {
+            width: 90%;
+        }
+        
+        h3 {
+            font-size: 3rem;
+        }
+
+        nav {
+            display: none;
+            float: none;
+            clear: left;
+        }
+
+        nav ul li {
+            display: block;
+            text-align: center;
+            padding: 1.2rem;
+        }
+
+        button {
+            display: block;
+            color: white;
+            float: right;
+            font-size: 2rem;
+            line-height: 1;
+            background-color: transparent;
+            border: none;
+            padding: 0.5rem;
+        }
+
+        button:focus + nav {
+            display: block;
+        }
+
+        /*FIN @MEDIA-QUERY HASTA 600PX*/
