@@ -1,197 +1,67 @@
-<!DOCTYPE html>
-<html lang="es-AR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Todo el deporte en un solo lugar">
-    <meta name="viewport" content="width=device-width">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <title>DeporteXtremo</title>
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="css/dx.css">
-</head>
-<body>
+  </head>
 
+  <body>
+    <h1>DeporteXtremo</h1>
 
-    <!-- INICIO DEL HEADER -->
-    <header>
-        <h1>DeporteXtremo</h1>
-        <button>&#9776</button>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Futbol</a>
-                </li>
-                <li>
-                    <a href="#">NBA</a>
-                </li>
-                <li>
-                    <a href="#">Tenis</a>
-                </li>
-                <li>
-                    <a href="#">Fórmula 1</a>
-                </li>
-                <li>
-                    <a href="#">Box</a>
-                </li>
-                <li>
-                    <a href="#">JJOO</a>
-                </li>
-                <li>
-                    <a href="#">Moto GP</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!--FIN DEL HEADER-->
-
-    
-    <main>
-     <!-- INICIO DE NOTICIAS DESTACADAS-->
-     
-        <section id="noticias_destacadas">
-            <figure>
-                <img src="img/juegos-olimpicos.jpg" alt="Juegos Olímpicos 2024-2028">
-                <figcaption>
-                    <h2>París y Los Ángeles serán las próximas sedes de los Juegos Olímpicos</h2>
-                </figcaption>
-            </figure>
-            
-            <figure>
-                <img src="img/f1.jpg" alt="Ricciardo en Azerbaiyán">
-                <figcaption>
-                    <h2>Ricciardo marcó el ritmo en los libres de Azerbaiyán</h2>
-                </figcaption>
-            </figure>
-                
-            <figure>
-                <img src="img/rally.jpg" alt="Rally en Córdoba">
-                <figcaption>
-                    <h2>En Córdoba arrancó la 1er etapa del 38° Rally de la Argentina</h2>
-                </figcaption>
-            </figure>
-        </section>
-    <!-- FIN DE NOTICIAS DESTACADAS-->
-
-    <!--ACÁ VAN LAS ULTIMAS NOTICIAS-->
-        <section id="ultimas_noticias">
-            
-            <!--INICIO NOTICIA 1-->
-            
-            <article class='noticia'>
-                <div class='noticia-img'>
-                    <img src="img/sorteo-libertadores.jpg" alt="Sorteo Libertadores">
-                </div>
-
-                <div class='noticia-txt'>
-                    
-                    <h3>La tecnología llega a la actual edición de la Libertadores</h3>
-                    
-                    <p>por <a href="#">Joaquín Angeli</a></p>
-                    
-                    <p>La Conmebol anunció la implementación del sistema VAR (asistencia arbitral por video) desde las semifinales de la actual Libertadores.</p>
-
-                </div>
-            </article>
-        <!--FIN NOTICIA 1-->
-            <hr>
-        <!--INICIO NOTICIA 2-->
-        <article class='noticia'>
-            <div class='noticia-img'>
-                <img src="img/tickets-rusia-mundial.jpg" alt="Sorteo Libertadores">
+    <section class="container">
+        <!-- inicio noticia 1-->
+        <article class="row noticia">
+            <div class="col-12 col-md-4 noticia-img">
+                <img src="img/sorteo-libertadores.jpg" alt="sorteo libertadores" class="img-fluid">
             </div>
-
-            <div class='noticia-txt'>
-                
-                <h3>Comenzó la venta de entradas para el Mundial de Rusia 2018</h3>
-                
-                <p>por <a href="#">Laura Smasnatta</a></p>
-                
-                <p>Hoy se abrió la venta al público de tickets, a través del sitio oficial de la FIFA. El proceso se dividirá en dos partes y los espectadores deberán solicitar una tarjeta de hincha 'Fan ID'.</p>
-
+            <div class="col-12 col-md-8 noticia-txt">
+                <h3>La tecnología llega a la actual edición de la Libertadores</h3>
+                <p>por Joaquín Angeli</p>
+                <p>La Conmebol anunció la implementación del sistema VAR (asistencia arbitral por video) desde las semifinales de la actual Libertadores.</p>
             </div>
         </article>
-        <!--FIN NOTICIA 2-->
-        <hr>
-        <!--INICIO NOTICIA 3-->
-        <article class='noticia'>
-            <div class='noticia-img'>
-                <img src="img/firpo.jpg" alt="Sorteo Libertadores">
-            </div>
+    <!--fin de noticia 1-->
 
-            <div class='noticia-txt'>
-                
-                <h3>A 94 años del derechazo que convirtió en leyenda a Luis Ángel Firpo</h3>
-                
-                <p>por <a href="#">Diego Di Marco</a></p>
-                
-                <p>El 14/9/1923 el boxeador argentino enfrento en Nueva York a Jack Dempsey, uno de los mejores pesos pesados de la historia.</p>
+   <!-- inicio noticia 2-->
+   <article class="row noticia">
+    <div class="col-12 col-md-4 noticia-img">
+        <img src="img/tickets-rusia-mundial.jpg" alt="Rusia mundial" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-8 noticia-txt">
+        <h3>Comenzó la venta de entradas para el Mundial de Rusia 2018</h3>
+        <p>por Laura Smasnatta</p>
+        <p>Hoy se abrió la venta al público de tickets, a través del sitio oficial de la FIFA. El proceso se dividirá en dos partes y los espectadores deberán solicitar una tarjeta de hincha 'Fan ID'</p>
+    </div>
+</article>
+<!--fin de noticia 2-->
 
-            </div>
-        </article>
-        <!-- FIN NOTICIA 3-->
-        <hr>
-        <!--INICIO NOTICIA 4-->
-        <article class='noticia'>
-            <div class='noticia-img'>
-                <img src="img/buenos-aires.jpg" alt="Sorteo Libertadores">
-            </div>
-            <div class='noticia-txt'>
-                
-                <h3>Buenos Aires 2018 presentó su innovador proyecto de parques y de ceremonia inaugural ante el COI</h3>
-                
-                <p>por <a href="#">Melina Morales</a></p>
-                
-                <p>El Comité Organizador de los Juegos de la Juventud presentó su concepto de parques ante la 131a sesión del Comité Olímpico Internacional (COI) que se realizó en Lima. La ceremonia inaugural se realizará al aire libre.</p>
-            </div>
-        </article>
-        <hr>
-        <!--FIN NOTICIA 4-->
-        </section>
-        <!--ACÁ TERMINAN LAS ÚLTIMAS NOTICIAS-->
-        
+<!-- inicio noticia 3-->
+<article class="row noticia">
+    <div class="col-12 col-md-4 noticia-img">
+        <img src="img/sorteo-libertadores.jpg" alt="sorteo libertadores" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-8 noticia-txt">
+        <h3>La tecnología llega a la actual edición de la Libertadores</h3>
+        <p>por Joaquín Angeli</p>
+        <p>La Conmebol anunció la implementación del sistema VAR (asistencia arbitral por video) desde las semifinales de la actual Libertadores.</p>
+    </div>
+</article>
+<!--fin de noticia 3-->
 
-        <!--ACÁ EMPIEZA LA TABLITA-->
-        <section id="tabla_resultados" style="display:none">
-            <table>
-                <tr>
-                    <th colspan="4">3er Fecha</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td><a href="#">Tigre,</a> 1pts <br /> <a href="#">Patronato,</a> 3pts</td>
-                    <td>2</td>
-                    <td><a href="#">Colón,</a> 4pts <br /> <a href="#">Estudiantes,</a> 3pts</td>
-                </tr>
+    </section>
 
-                <tr>
-                    <td>3</td>
-                    <td><a href="#">Def. y Justicia,</a> 4pts <br /> <a href="#">Únion,</a> 4pts</td>
-                    <td>4</td>
-                    <td><a href="#">Argentinos Juniors,</a> 0pts <br /> <a href="#">Belgrano,</a> 3pts</td>
-                </tr>
 
-                <tr>
-                    <td>5</td>
-                    <td><a href="#">Newell's,</a> 1pts <br /> <a href="#">Olimpo,</a> 1pts</td>
-                    <td>6</td>
-                    <td><a href="#">San Lorenzo,</a> 2pts <br /><a href="#"> Arsenal,</a> 0pts</td>
-                </tr>
-                
-                <tr>
-                    <td>7</td>
-                    <td><a href="#">Independiente,</a> 4pts <br /><a href="#"> Lanús,</a> 0pts</td>
-                    <td>8</td>
-                    <td><a href="#">Talleres,</a> 3pts <br /> <a href="#">Vélez,</a> 3pts</td>
-                </tr>
-               
-            
 
-            </table>
-        </section>
-        <!--ACÁ TERMINA LA TABLITA-->
-
-    </main>    
-    <!-- FIN DE NOTICIAS DESTACADAS-->
-
-    <!--ACÁ EMPEZARÍA EL FOOTER-->
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
