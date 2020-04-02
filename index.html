@@ -8,9 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!--propio css-->
+    <link rel="stylesheet" href="css/dx2.css">
+
     <title>DeporteXtremo</title>
   </head>
     <body>
+
         <!--inicio header-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
@@ -54,11 +58,48 @@
 
         <!--fin header-->
 
-    
+    <!--inicio noticias destacadas-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <figure class="carousel-item active">
+          <img src="img/juegos-olimpicos.jpg" alt="Juegos Olímpicos 2024-2028" class="d-block w-100" alt="First slide">
+            <figcaption class="bg-dark text-white">
+                <h2>París y Los Ángeles serán las próximas sedes de los Juegos Olímpicos</h2>
+            </figcaption>
+        </figure>
+
+        <figure class="carousel-item">
+            <img src="img/f1.jpg" alt="Ricciardo en Azerbaiyán" class="d-block w-100" alt="Second slide">
+            <figcaption class="bg-dark text-white">
+                <h2>Ricciardo marcó el ritmo en los libres de Azerbaiyán</h2>
+            </figcaption>
+        </figure>
+
+        <figure class="carousel-item">
+          <img src="img/rally.jpg" alt="Rally en Córdoba" class="d-block w-100" alt="Thirth slide">
+          <figcaption class="bg-dark text-white">
+              <h2>En Córdoba arrancó la 1er etapa del 38° Rally de la Argentina</h2>
+          </figcaption>
+      </figure>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  <!-- fin noticias destacadas -->
+
 
     <section class="container">
         <!-- inicio noticia 1-->
-        <article class="row noticia">
+        <article class="row noticia mt-2 mt-md-4">
             <div class="col-12 col-md-4 noticia-img">
                 <img src="img/sorteo-libertadores.jpg" alt="sorteo libertadores" class="img-fluid">
             </div>
@@ -71,7 +112,7 @@
     <!--fin de noticia 1-->
 
    <!-- inicio noticia 2-->
-   <article class="row noticia">
+   <article class="row noticia mt-2 mt-md-4">
     <div class="col-12 col-md-4 noticia-img">
         <img src="img/tickets-rusia-mundial.jpg" alt="Rusia mundial" class="img-fluid">
     </div>
@@ -84,7 +125,7 @@
 <!--fin de noticia 2-->
 
 <!-- inicio noticia 3-->
-<article class="row noticia">
+<article class="row noticia mt-2 mt-md-4">
     <div class="col-12 col-md-4 noticia-img">
         <img src="img/sorteo-libertadores.jpg" alt="sorteo libertadores" class="img-fluid">
     </div>
@@ -96,7 +137,61 @@
 </article>
 <!--fin de noticia 3-->
 
+<!-- inicio noticia 4-->
+<article class="row noticia mt-2 mt-md-4">
+  <div class="col-12 col-md-4 noticia-img">
+      <img src="img/buenos-aires.jpg" alt="sorteo libertadores" class="img-fluid">
+  </div>
+  <div class="col-12 col-md-8 noticia-txt">
+      <h3>Buenos Aires 2018 presentó su innovador proyecto de parques y de ceremonia inaugural ante el COI</h3>
+      <p>por Melina Morales</p>
+      <p>El Comité Organizador de los Juegos de la Juventud presentó su concepto de parques ante la 131a sesión del Comité Olímpico Internacional (COI) que se realizó en Lima. La ceremonia inaugural se realizará al aire libre.</p>
+  </div>
+</article>
+<!--fin de noticia 4-->
+
     </section>
+
+    <!--ACÁ EMPIEZA LA TABLITA-->
+    <section>
+      <table class="table table-bordered">
+          <tr>
+              <th colspan="4" class="table-danger">3er Fecha</th>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td><a href="#">Tigre,</a> 1pts <br /> <a href="#">Patronato,</a> 3pts</td>
+              <td>2</td>
+              <td><a href="#">Colón,</a> 4pts <br /> <a href="#">Estudiantes,</a> 3pts</td>
+          </tr>
+
+          <tr>
+              <td>3</td>
+              <td><a href="#">Def. y Justicia,</a> 4pts <br /> <a href="#">Únion,</a> 4pts</td>
+              <td>4</td>
+              <td><a href="#">Argentinos Juniors,</a> 0pts <br /> <a href="#">Belgrano,</a> 3pts</td>
+          </tr>
+
+          <tr>
+              <td>5</td>
+              <td><a href="#">Newell's,</a> 1pts <br /> <a href="#">Olimpo,</a> 1pts</td>
+              <td>6</td>
+              <td><a href="#">San Lorenzo,</a> 2pts <br /><a href="#"> Arsenal,</a> 0pts</td>
+          </tr>
+          
+          <tr>
+              <td>7</td>
+              <td><a href="#">Independiente,</a> 4pts <br /><a href="#"> Lanús,</a> 0pts</td>
+              <td>8</td>
+              <td><a href="#">Talleres,</a> 3pts <br /> <a href="#">Vélez,</a> 3pts</td>
+          </tr>
+
+      </table>
+  </section>
+
+  <!--ACÁ TERMINA LA TABLITA-->
+
+
 
 
 

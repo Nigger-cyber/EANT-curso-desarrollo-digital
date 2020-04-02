@@ -1,0 +1,50 @@
+
+.table-bordered {
+    margin: 2rem auto;
+    max-width: 70%;
+}
+
+.table-danger {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.table-bordered tr {
+    background-color: whitesmoke;
+}
+
+.table-bordered td:nth-of-type(odd) {
+    font-size: 1.5rem;
+    color: #222222;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .noticia-txt {
+        line-height: 1.2rem;
+    }
+    
+    figure figcaption {
+    
+        min-width: 4rem;
+        font-size: 2rem;
+        padding: 0.5rem;
+        min-height: 12rem;
+    }
+
+    h2 {
+        vertical-align: middle;
+    }
+
+    .tabla-resultados table {
+        margin: auto;
+        min-width: 90%;
+        line-height: 1rem;
+
+    }
+    
