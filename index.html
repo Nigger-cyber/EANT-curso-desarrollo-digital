@@ -251,6 +251,14 @@
         
       noticia.Mostrar()
 
+      fetch("https://api.npoint.io/ef4b7e667a61eb01ad1c")
+        .then( rta => rta.json() )
+				.then( objetos => objetos.map( ({Titulo, Autor, CuerpoNota, Imagen}) => new Noticia(Titulo, Autor, CuerpoNota, Imagen) ) )
+        .then( resultado => { resultado.forEach( noticia => {
+							noticia.Mostrar()
+            })
+        })
+
     </script>
 
   </body>
