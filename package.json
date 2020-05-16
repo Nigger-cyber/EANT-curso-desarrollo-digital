@@ -1,0 +1,25 @@
+{
+  "name": "eant-curso-desarrollo-digital",
+  "version": "1.0.0",
+  "description": "Workshop 1605",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaolmos90/EANT-curso-desarrollo-digital.git"
+  },
+  "author": "ljuarez, aolmos, daranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaolmos90/EANT-curso-desarrollo-digital/issues"
+  },
+  "homepage": "https://github.com/andreaolmos90/EANT-curso-desarrollo-digital#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
